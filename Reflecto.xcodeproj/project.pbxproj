@@ -12,9 +12,17 @@
 		2D4A686A226D42CF0003EE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6868226D42CF0003EE5C /* Main.storyboard */; };
 		2D4A686C226D42D00003EE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A686B226D42D00003EE5C /* Assets.xcassets */; };
 		2D4A686F226D42D00003EE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A686D226D42D00003EE5C /* LaunchScreen.storyboard */; };
+		2D4A687D226D561F0003EE5C /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A687A226D561F0003EE5C /* bg2.jpg */; };
+		2D4A687E226D561F0003EE5C /* bg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A687B226D561F0003EE5C /* bg3.jpg */; };
+		2D4A687F226D561F0003EE5C /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A687C226D561F0003EE5C /* bg1.jpg */; };
+		2D4A6881226D5C590003EE5C /* bg0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6880226D5C590003EE5C /* bg0.jpg */; };
+		2D4A6883226E03760003EE5C /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6882226E03750003EE5C /* landscape.png */; };
+		2D4A6885226E03C00003EE5C /* capture.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6884226E03C00003EE5C /* capture.png */; };
+		8A79D86AB3D0EF15C470B851 /* Pods_Reflecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159DBA041FFE90A2A4AE6275 /* Pods_Reflecto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		159DBA041FFE90A2A4AE6275 /* Pods_Reflecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reflecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4A6861226D42CF0003EE5C /* Reflecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4A6864226D42CF0003EE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D4A6866226D42CF0003EE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,14 @@
 		2D4A686B226D42D00003EE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4A686E226D42D00003EE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D4A6870226D42D00003EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4A687A226D561F0003EE5C /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpg; sourceTree = "<group>"; };
+		2D4A687B226D561F0003EE5C /* bg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg3.jpg; sourceTree = "<group>"; };
+		2D4A687C226D561F0003EE5C /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		2D4A6880226D5C590003EE5C /* bg0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg0.jpg; sourceTree = "<group>"; };
+		2D4A6882226E03750003EE5C /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape.png; sourceTree = "<group>"; };
+		2D4A6884226E03C00003EE5C /* capture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capture.png; sourceTree = "<group>"; };
+		3E8DC398ED4F03B318DF43CB /* Pods-Reflecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reflecto.debug.xcconfig"; path = "Target Support Files/Pods-Reflecto/Pods-Reflecto.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC32A8B005BD5234D4D8C63 /* Pods-Reflecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reflecto.release.xcconfig"; path = "Target Support Files/Pods-Reflecto/Pods-Reflecto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A79D86AB3D0EF15C470B851 /* Pods_Reflecto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				2D4A6863226D42CF0003EE5C /* Reflecto */,
 				2D4A6862226D42CF0003EE5C /* Products */,
+				FF981CE175F9B456F5A589A6 /* Pods */,
+				3E089DD1897B08A8B5314DEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +73,12 @@
 		2D4A6863226D42CF0003EE5C /* Reflecto */ = {
 			isa = PBXGroup;
 			children = (
+				2D4A6880226D5C590003EE5C /* bg0.jpg */,
+				2D4A687C226D561F0003EE5C /* bg1.jpg */,
+				2D4A687A226D561F0003EE5C /* bg2.jpg */,
+				2D4A687B226D561F0003EE5C /* bg3.jpg */,
+				2D4A6882226E03750003EE5C /* landscape.png */,
+				2D4A6884226E03C00003EE5C /* capture.png */,
 				2D4A6864226D42CF0003EE5C /* AppDelegate.swift */,
 				2D4A6866226D42CF0003EE5C /* ViewController.swift */,
 				2D4A6868226D42CF0003EE5C /* Main.storyboard */,
@@ -64,6 +89,23 @@
 			path = Reflecto;
 			sourceTree = "<group>";
 		};
+		3E089DD1897B08A8B5314DEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159DBA041FFE90A2A4AE6275 /* Pods_Reflecto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF981CE175F9B456F5A589A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E8DC398ED4F03B318DF43CB /* Pods-Reflecto.debug.xcconfig */,
+				FAC32A8B005BD5234D4D8C63 /* Pods-Reflecto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D4A6873226D42D00003EE5C /* Build configuration list for PBXNativeTarget "Reflecto" */;
 			buildPhases = (
+				8CBC66C15DBAD0B12BDE1FAD /* [CP] Check Pods Manifest.lock */,
 				2D4A685D226D42CF0003EE5C /* Sources */,
 				2D4A685E226D42CF0003EE5C /* Frameworks */,
 				2D4A685F226D42CF0003EE5C /* Resources */,
+				6287AE489A60E857BFF923E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +168,64 @@
 			files = (
 				2D4A686F226D42D00003EE5C /* LaunchScreen.storyboard in Resources */,
 				2D4A686C226D42D00003EE5C /* Assets.xcassets in Resources */,
+				2D4A687E226D561F0003EE5C /* bg3.jpg in Resources */,
+				2D4A687D226D561F0003EE5C /* bg2.jpg in Resources */,
+				2D4A6885226E03C00003EE5C /* capture.png in Resources */,
+				2D4A687F226D561F0003EE5C /* bg1.jpg in Resources */,
 				2D4A686A226D42CF0003EE5C /* Main.storyboard in Resources */,
+				2D4A6881226D5C590003EE5C /* bg0.jpg in Resources */,
+				2D4A6883226E03760003EE5C /* landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6287AE489A60E857BFF923E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reflecto/Pods-Reflecto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reflecto/Pods-Reflecto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBC66C15DBAD0B12BDE1FAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reflecto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D4A685D226D42CF0003EE5C /* Sources */ = {
@@ -280,6 +377,7 @@
 		};
 		2D4A6874226D42D00003EE5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8DC398ED4F03B318DF43CB /* Pods-Reflecto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +396,7 @@
 		};
 		2D4A6875226D42D00003EE5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC32A8B005BD5234D4D8C63 /* Pods-Reflecto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
